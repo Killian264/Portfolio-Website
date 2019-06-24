@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Templates/navDefault/navMain.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -20,9 +21,9 @@
             <li><a href="#ye" class="scroll">Home</a></li>
             <li><a href= "#heading" class="scroll">Projects</a></li>
             <li><a href="#about" class="scroll">Skills</a></li>
-            <li><a href= "images/Killian Debacker Resume.docx" download="Killian Debacker Resume">Resume</a></li>
+            <li><a href= "images/Killian Debacker Resume.docx" download="Killian Debacker Resume" target="_blank">Resume</a></li>
             <div class="download">
-                <a href="images/Killian Debacker Resume.docx"> <img src="images/button.png" alt=""></a>
+                <a href="images/Killian Debacker Resume.docx" target="_blank"> <img src="../images/button.png" alt=""></a>
             </div>
         </ul>
         <div class = "navdropdown">
@@ -39,7 +40,7 @@
             <br>
             <ul class="infoLinks">
                 <li>
-                    <a href="https://www.linkedin.com/in/killian-debacker-95a813165/" target="_blank">
+                    <a href="https://github.com/Killian264" target="_blank">
                     <img src="images/GithubImage.png" id="gitHub">GitHub</a>
                 </li>
                 <li>
@@ -72,8 +73,8 @@
                 <h4>Technologies Used</h4>
                 <ul>
                     <li>
-                            <i class="fas fa-dot-circle"></i>
-                            <span>HTML</span>
+                        <i class="fas fa-dot-circle"></i>
+                        <span>HTML</span>
                     </li>
                     <li>
                         <i class="fas fa-dot-circle"></i>
@@ -141,37 +142,41 @@
         </div>
 
             <div class="portfolio">
-                    <h2>Upcoming Project</h2>
-        
-                    <img src="images/download.jpg" ></a><br>
-                    <i class="fas fa-code-branch"></i></i> <span>View Source</span>
+                    <h2>Simple Projects</h2>
+
+                    <a href="https://github.com/Killian264" target="_blank"><img src="images/WindowsCalc.PNG"">
+                    <i class="fas fa-code-branch"></i><span>  View Source</span></a>
+
+                    <a href="Pages/Calc/calcIndex.html"><i class="fas fa-desktop"></i> <span> Live Preview </span></a>
         
                     <div class="technologies">
                         <h4>Technologies Used</h4>
                         <ul>
                             <li>
                                     <i class="fas fa-dot-circle"></i>
-                                    <span>C# </span>
+                                    <span>HTML </span>
                             </li>
                             <li>
                                 <i class="fas fa-dot-circle"></i>
-                                <span>.NET </span> <br>
+                                <span>CSS </span> <br>
+                            </li>
+                            <li>
+                                <i class="fas fa-dot-circle"></i>
+                                <span>JavaScript</span> <br>
                             </li>
                         </ul>
                     </div>
                     <div class="portfolioInfo">
                         <div class="infoText"></div>
                             <h4>Overview</h4>
-                            <span>A Discord bot made in c# and .NET using Discord.net api's.</span>
+                            <span>A few small projects showing off my skills in Javascript.</span>
                         </div>
                         <div class="notableFeatures">
-                            <h4>Notable Features</h4>
-                            <i class="fas fa-dot-circle"></i>
-                            <span>Fully asynchronous </span><br>
-                            <i class="fas fa-dot-circle"></i>
-                            <span>Using multiple Apis and deserializing JSONs for stylish optput. </span><br>
-                            <i class="fas fa-dot-circle"></i>
-                            <span>Something about c# or .net.</span><br>
+                            <div id="simpleProj">
+                                <h4>Simple Projects</h4>
+                                <i class="fas fa-dot-circle"></i>
+                                <a href="/Pages/Calc/calcIndex.html"><span>Windows Calculator Clone in JavaScript</span><br></a>
+                            </div>
                         </div>
                     </div>
     </div>
