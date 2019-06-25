@@ -15,9 +15,9 @@
             <h4>Contact Me - Killian Debacker</h4>
         </div>
         <ul class="navlinks">
-            <li><a href="https://killiandebacker.com" class="scroll">Portfolio Home</a></li>
-            <li><a href="../Calc/calcIndex.html" class="scroll">Windows Calculator in JS</a></li>
-            <li><a href= "../images/Killian Debacker Resume.docx" download="Killian Debacker Resume" target="_blank">Resume</a></li>
+            <li><a href="https://killiandebacker.com">Portfolio Home</a></li>
+            <li><a href="../Calc/calcIndex">Windows Calculator in JS</a></li>
+            <li><a href= "../../Images/Killian Debacker Resume.docx" download="Killian Debacker Resume" target="_blank">Resume</a></li>
             <div class="download">
                 <a href="../../Images/Killian Debacker Resume.docx" target="_blank"> <img src="../../Images/button.png" alt=""></a>
             </div>
@@ -27,29 +27,24 @@
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
-        <script src="../../nav.js"></script>
+        <script src="../../Templates/navDefault/nav.js"></script>
     </nav>
     <h1 id="heading">Contact Me</h1>
     <div class="contact">
-        <div class="contactInfo">
-            <div class="NE">
-                <div>
-                        <label for="fname">Full Name</label>
-                        <input type="text" id="name" name="firstname" placeholder="Your name..">
-                </div>
-                <div>
-                        <label for="email">Email</label>
-                        <input type="text" id="name" name="email" placeholder="Your email..">
-                </div>
-            </div>
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" placeholder="Subject.." >
-    
-                <label for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message.."></textarea>
-    
-                <input type="submit" value="Submit">
-        </div>
+            <div class="alert ">Your Email has been sent</div>
+                <form method="post" action="contact.php">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="name" name="firstname" placeholder="Your name..">
+                    <label for="email">Email</label>
+                    <input type="text" id="name" name="email" placeholder="Your email..">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject.." >
+        
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message.."></textarea>
+        
+                    <button class="button" type="submit" name="submit">Submit</button>
+                </form>
     </div>
 
 </body>
