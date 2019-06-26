@@ -28,17 +28,6 @@ $(document).ready(function(){
         }, 750)
     })
 
-    var flashMessage = $('#flashMessage');
-    flashMessage.hide();
-    $('#flashMessage span').css('color', 'white');
-    $('#flashMessage h3').css('color', 'white');
-    
-    $('#gmail').click(function(e){
-        e.preventDefault();
-        flashMessage.slideDown(1000).delay(4500).slideUp();
-    })
-
-
     navSlide();
 
 });

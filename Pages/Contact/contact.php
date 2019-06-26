@@ -13,7 +13,7 @@
             }
             else{
                 $toEmail = 'main@killiandebacker.com';
-                $fullEmail = 'From: ' . $name . '<br> Email ' . $email . '<br> Message ' . $message;
+                $fullEmail = 'From: ' . $name . '<br> Email: ' . $email . '<br> Message: ' . $message;
 
                 $headers = "MIME-Version: 1.0" . "\r\n";
                 $headers .= "Content-Type:text/html;charset=UTF-8" . "\r\n";
@@ -48,8 +48,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="contactMain.css">
     <link rel="stylesheet" href="../../Templates/navDefault/navMain.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <title>Contact Me</title>
 </head>
 <body>
@@ -60,9 +58,9 @@
         <ul class="navlinks">
             <li><a href="https://killiandebacker.com">Portfolio Home</a></li>
             <li><a href="../Calc/calcIndex"> Windows Calculator in JS</a></li>
-            <li><a href= "../../Images/Killian Debacker Resume.docx" download="Killian Debacker Resume" target="_blank">Resume</a></li>
+            <li><a href= "../../Killian Debacker Resume.docx" download="Killian Debacker Resume" target="_blank">Resume</a></li>
             <div class="download">
-                <a href="../../Images/Killian Debacker Resume.docx" target="_blank"> <img src="../../Images/button.png" alt=""></a>
+                <a href="../../Killian Debacker Resume.docx" target="_blank"> <img src="../../button.png" alt=""></a>
             </div>
         </ul>
         <div class = "navdropdown">
@@ -70,7 +68,7 @@
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
-        <script src="../../Templates/navDefault/nav.js"></script>
+        <script src="../../Templates/navDefault/navMobile.js"></script>
     </nav>
     <h1 id="heading">Contact Me</h1>
     <div class="contact">
