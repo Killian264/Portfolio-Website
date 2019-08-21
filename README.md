@@ -1,20 +1,14 @@
 # Portfolio-Website
-My Portfolio website
+Live Preview: https://killiandebacker.com
 
-What I learned 
+# What I learned 
 
-Scalable design using flexbox with css and media rule
+HTML and CSS
 
-Alot of HTML 
+Scalable and responsive design using flexbox, grid, and media queries.
 
-Alot of CSS
+Basic Javascript, Jquery, and PHP
 
-Javascript DOM manipulation
-
-Basic Jquery
-
-Basic PHP
+Javascript DOM manipulation 
 
 .htaccess coding
-
-Git skills
