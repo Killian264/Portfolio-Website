@@ -173,6 +173,22 @@
     padding-top: 5px;
     margin: 5px;
 }
+.skills a{
+    text-decoration: none;
+    color: white;
+}
+.learned-skills{
+        list-style: none;
+}
+.goal-tracker-image{
+    margin-left: 2%;
+}
+.goal-tracker-image img{
+    width: 630px;
+    height: 480px;
+    object-fit: scale-down;
+
+}
 .os li{
     flex: 1 0 30%;
     padding-top: 5px;
