@@ -10,7 +10,7 @@
     height: 800px;
     text-align: center;
     background-color: rgba(0, 0, 0);
-    background: url("images/space.jpg");
+    /* background: url("images/space.jpg"); */
     /* background-image:url("images/space3.jpg"); */
     background-position-x: 50%;
     background-position: center;
@@ -260,4 +260,8 @@
         height: 220px;
         object-fit: contain;
     }
+}
+
+.b{
+    font-weight: 600;
 }

@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     const navSlide = () => {
         const navdropdown = document.querySelector('.navdropdown');
@@ -29,5 +30,11 @@ $(document).ready(function(){
     })
 
     navSlide();
+
+
+    let img = new Image();
+    img.src = "images/space.jpg";
+    document.getElementById("setImage").style.backgroundImage = "url('images/space.jpg')";
+
 
 });
